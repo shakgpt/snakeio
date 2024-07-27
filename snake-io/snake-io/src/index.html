@@ -1,0 +1,32 @@
+<body>
+  <div id="gameWrapper">
+    <div id="gameContainer">
+      <!-- Game Canvas -->
+      <canvas id="gameCanvas"></canvas>
+
+      <!-- Game UI -->
+      <div id="gameUI">
+        <button id="startButton">Start</button>
+        <button id="pauseButton">Pause</button>
+        <button id="restartButton">Restart</button>
+        <div id="status">
+          <p id="score">Score: 0</p>
+          <p id="highScore">High Score: 0</p>
+        </div>
+      </div>
+
+      <!-- Game Over Screen -->
+      <div id="gameOverScreen">
+        <p>Game Over!</p>
+        <p id="finalScore">Final Score: 0</p>
+        <button id="restartGameButton">Restart Game</button>
+      </div>
+    </div>
+
+    <!-- Minimize/Maximize Button -->
+    <button id="toggleButton">Minimize</button>
+  </div>
+
+  <!-- Include JavaScript file -->
+  <script src="game.js"></script>
+</body>
